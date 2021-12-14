@@ -4,7 +4,7 @@
   "description": "adopt me project",
   "main": "index.js",
   "scripts": {
-
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/maryferrer/Adopt-Me-Pet-App/issues"
   },
-  "homepage": "https://github.com/maryferrer/Adopt-Me-Pet-App#readme"
+  "homepage": "https://github.com/maryferrer/Adopt-Me-Pet-App#readme",
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
 }
