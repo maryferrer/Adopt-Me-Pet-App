@@ -1,0 +1,20 @@
+{
+  "name": "adopt-me",
+  "version": "1.0.0",
+  "description": "adopt me project",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maryferrer/Adopt-Me-Pet-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maryferrer/Adopt-Me-Pet-App/issues"
+  },
+  "homepage": "https://github.com/maryferrer/Adopt-Me-Pet-App#readme"
+}
