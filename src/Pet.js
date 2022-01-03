@@ -1,14 +1,6 @@
 import React from "react";
 
-  const Pet = ({
-      name,
-      animal,
-      breed,
-      images,
-      location,
-      id
-  }) => {
-
+  const Pet = ({ name, animal, breed, images, location, id }) => {
     let hero = 'http://pets-images.dev-apis.com/pets/none.jpg';
     if (images.length) {
         hero = images[0];
@@ -19,7 +11,7 @@ import React from "react";
               <div className="image-container">
                   <img src={hero} alt={name} />
               </div>
-              <div>
+              <div className="info">
                       <h1>{name}</h1>
                       <h2>{`${animal} - ${breed} - ${location}`}</h2>
                 </div>
