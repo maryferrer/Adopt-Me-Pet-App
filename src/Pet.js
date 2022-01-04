@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
   const Pet = ({ name, animal, breed, images, location, id }) => {
     let hero = 'http://pets-images.dev-apis.com/pets/none.jpg';
@@ -7,7 +8,7 @@ import React from "react";
     }
 
       return (
-          <a href={`/details/${id}`} className="pet">
+          <Link to={`/details/${id}`} className="pet">
               <div className="image-container">
                   <img src={hero} alt={name} />
               </div>
@@ -15,7 +16,7 @@ import React from "react";
                       <h1>{name}</h1>
                       <h2>{`${animal} - ${breed} - ${location}`}</h2>
                 </div>
-          </a>
+          </Link>
       );
   };
 
